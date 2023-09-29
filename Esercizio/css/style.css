@@ -1,0 +1,202 @@
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  border: solid;
+  border-color: #dee1e3;
+  border-width: 20px;
+  border-top: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+.box-nera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-image: url(http://127.0.0.1:5501/Esercizio/images/banner.jpg);
+  background-size: cover;
+  padding: 40px;
+}
+
+.container p {
+  text-align: center;
+  font-weight: 200;
+  width: 330px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.7;
+}
+
+h1 {
+  margin: 0;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.container + h1 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.button {
+  color: white;
+  background-color: #f04c2f;
+  background-size: 200px;
+  font-family: "Montserrat", sans-serif, bold;
+  font-weight: bold;
+  border-radius: 5%;
+  border-color: #f04c2f;
+  box-shadow: none;
+  border-style: none;
+  padding: 10px 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 0.7px;
+}
+
+h3 {
+  margin: 0;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 30px;
+}
+.p-article {
+  padding: 10%;
+}
+.p-article p {
+  text-align: center;
+  font-weight: 200;
+  width: 330px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.7;
+  margin: 0;
+}
+.p-article img {
+  border-radius: 50%;
+  padding: 4%;
+}
+
+h4 {
+  margin: 0;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.box-coral {
+  background-color: #ea2a09;
+  max-width: fit-content;
+  height: 300px;
+  color: white;
+  text-align: center;
+}
+
+#big-title {
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px;
+  letter-spacing: 0.8px;
+}
+
+#name {
+  font-weight: 100;
+  padding: 10px;
+}
+
+#ceo {
+  font-size: 13px;
+  font-weight: 100;
+  padding: 2px;
+}
+
+.pc {
+  padding: 10%;
+  border: solid;
+  border-color: lightgrey;
+  border-width: 0.8px;
+  border-radius: 2%;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pc-lights {
+  padding: 10%;
+  border: solid;
+  border-color: lightgrey;
+  border-width: 0.8px;
+  border-radius: 2%;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pc-work {
+  padding: 10%;
+  border: solid;
+  border-color: lightgrey;
+  border-width: 0.8px;
+  border-radius: 2%;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  text-align: center;
+  font-size: 17px;
+  padding: 50px;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer span {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 15px;
+}
+.contact-us strong {
+  font-size: 35px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border-bottom: 30px;
+}
+
+i {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  padding: 13px;
+}
